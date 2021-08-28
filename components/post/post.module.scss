@@ -1,0 +1,43 @@
+@import '../theme.scss';
+
+.post {
+  @include var(background-color, background-color);
+  display: flex;
+  justify-content: center;
+
+  .container {
+    @include var(width, max-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    @include var(height, blog-image-height);
+    object-fit: cover;
+  }
+
+  article {
+    @include var(max-width, blog-post-width);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  h1 {
+    @include var(font-size, blog-title-font-size);
+  }
+
+  time {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+    @include var(color, blog-time-color);
+  }
+
+  .body {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+}

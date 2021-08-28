@@ -1,0 +1,49 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "lint": "eslint . --fix",
+    "start": "next start"
+  },
+  "keywords": [
+    "Landing"
+  ],
+  "author": "June Kim",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.37.5"
+  },
+  "devDependencies": {
+    "@types/modernizr": "^3.5.3",
+    "@types/node": "^16.6.1",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "modernizr": "^3.11.7",
+    "typescript": "^4.3.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "ie 11"
+    ],
+    "ssr": [
+      "node 12"
+    ]
+  }
+}

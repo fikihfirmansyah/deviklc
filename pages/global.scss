@@ -1,0 +1,50 @@
+@import '../components/theme.scss';
+@import url('//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('//fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+:root {
+  @include css-var($global-var);
+}
+
+@include big-screen {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  @include var(color, font-color);
+  @include var(background-color, background-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #353535;
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
