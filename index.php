@@ -42,9 +42,13 @@
     <span class="fade first name">dev. IKLC USU</span>
     <span class="fade second">lacus sed turpis tincidunt id aliquet risus feugiat</span>
     <span class="vertical-spacing"></span>
-    <span class="fade third">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
+    <span class="fade third">Lorem ipsum dolor sit amet, consectetur, sed do incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta.
     </span>
     <span class="vertical-spacing"></span>
+    <span class="fade third">
+        <img src="img/iklcwhite1.png" width="100px">
+    </span>
+
 
     <svg id="eye" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlnsXlink="http://www.w3.org/1999/xlink" enableBackground="new 0 0 512 512">
         <g>
