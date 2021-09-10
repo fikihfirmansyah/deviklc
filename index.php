@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>dev. IKLC USU branch utama (kopian)</title>
+    <title>dev. IKLC USU</title>
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
